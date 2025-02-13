@@ -1,0 +1,82 @@
+body{
+background-image: url(HD-wallpaper-soft-pink-light.jpg);
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.heart1{
+    width: 220px;
+    height: 220px;
+    margin-top: 5%;
+}
+
+.two{
+    margin-left: 41%;
+    margin-top: -17%;
+    transform: rotate(10deg);
+    object-fit:cover !important;
+}
+
+.three{
+    margin-right: 31%;
+    transform: rotate(-10deg);
+    margin-top: -15.5%;
+}
+
+.four{
+    margin-left: 42%;
+    margin-top: -20%;
+}
+
+.five{
+    transform: rotate(-14deg);
+    margin-top: -22%;
+}
+
+.divie{
+    background-color: rgb(168, 123, 131);
+    text-align: center;
+    opacity: .7;
+    font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.divie h1{
+    font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 2px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+img{
+object-fit: cover;
+transition: 2s;
+border-radius: 400px;
+animation: 4s 0.5s hehe infinite;
+}
+
+@keyframes hehe {
+    50%{
+        box-shadow: 10px 10px 100px rgb(184, 151, 151);
+    }
+    100%{
+        box-shadow:none;
+    }
+}
+
+button{
+    width: 75px;
+    height:75px ;
+    border-radius: 100px;
+    display: none;
+    position: absolute;
+    top:53.5%;
+    left: 16%;
+    opacity: 0;
+}
